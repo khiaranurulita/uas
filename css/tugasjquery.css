@@ -1,0 +1,159 @@
+@charset "utf-8";
+/* CSS Document */
+#wrapper{ width:960px; margin:auto; 
+} header{ 
+	height:360px; 
+	width:960px; 
+	float:left;
+	background:url(images/pengertian-sistem-informasi.jpg);
+	background-size:960px 360px; /* CSS3 */ 
+	} 
+
+nav{  
+	height:20px; 
+	width:960px; 
+	float:left;
+	background:#900;
+	color:#FFF; 
+	} 
+nav{  
+	width:958px; 
+	float:left; 
+	overflow:auto;
+	background:#900;
+	color:#FFF; 
+	border:#AAAAAA 1px solid; 
+	} 
+nav ul{ 
+	list-style:none; 
+	float:left; 
+	overflow:auto; 
+	margin:0px; 
+	padding:0px; 
+	} 
+nav ul li{ 
+	display:block; 
+	padding:5px 10px 5px 10px; 
+	float:left; 
+	margin:0px; 
+	border-right:#AAAAAA 1px solid; 
+	} 
+nav ul li .submenu{ 
+	display:none; 
+	} 
+nav ul li:hover .submenu{ 
+	display:block; 
+	margin:0px; 
+	width:100px; 
+	position:absolute; 
+	margin-top:5px; 
+	border:#AAAAAA 1px solid;
+	background:#900;
+	color:#FFF; 
+	margin-left:-11px; 
+	} 
+nav ul li:hover .submenu li{ 
+	display:block; 
+	width:89px; 
+	padding:5px; 
+	float:left; 
+	border:none; 
+	} 
+nav ul li:hover{
+	background:#999;
+	color:#000; 
+	} 
+nav ul li a{
+	color:#FFF; 
+	text-decoration:none; 
+	} 
+nav ul li a:hover{ 
+	text-decoration:underline; 
+	} 
+
+#wrapper #content{
+	background:#OCF; 
+	width:620px;
+	height:1880px; 
+	float:left; 
+	padding:10px; 
+	} 
+#wrapper #content #single{
+	background:#0CF;
+	margin:5px;
+	width:600px;
+	border:#3CF 1px solid; 
+	padding:5px; 
+	font-size:16px; 
+	float:left; 
+	overflow:auto; 
+	} 
+#wrapper #content #single #featured-image{ 
+	width:180px; 
+	height:150px; 
+	-moz-background-size:150px 450px; /* CSS3 Mozilla Firefox */ 	
+	background-size:150px 450px; /* CSS3 Other Browser */ 
+	background-position:center; 
+	float:left; 
+	overflow:auto; 
+	margin-right:5px; 
+	} 
+#wrapper #content #single h2{ 
+	margin:0px; 
+	font-family:Cuprum; 
+	fontsize:18px;
+	color:#FFF;
+	padding:5px; 
+	border:#DFDFDF 1px solid;
+	background:#900; 
+	margin-bottom:10px; 
+	} 
+#wrapper #content #single #more a{ 
+	float:right; 
+	overflow:auto; 
+	padding:2px 10px 2px 10px;
+	background:#900;
+	color:#FFF; 
+	border:#FF9933 1px solid; 
+	-moz-border-radius:10px; 
+	-webkit-border-radius:10px; 
+	-o-border-radius:10px; 
+	margin-bottom:10px; 
+	margin-right:10px; 
+	margin-top:10px; 
+	text-align:center; 
+	text-decoration:none; 
+	} 
+#wrapper #content #single #more a:hover{
+	background:#OCF;
+	color:#093; 
+	border:#CC6600 1px solid; 
+	}  
+	
+#wrapper #sidebar{ 
+	width:300px;
+	height:1880px;
+	background:#0CF; 
+	float:left; 
+	padding:10px; 
+	}
+
+footer{ 
+	float:left;
+	background:#900;
+	color:#FFF; 
+	width:960px; 
+	} 
+footer #column{ 
+	width:300px; 
+	padding:10px; 
+	float:left; 
+	}
+
+@font-face{ 
+font-family:"Cuprum"; src:url("fonts/Cuprum.otf"); font-weight:normal; 
+} 
+@font-face{ font-family:"Calibri"; src:url("fonts/calibri.ttf"); font-weight:normal; 
+ 
+}  body{  font-family:Calibri; 
+} 
